@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Task-10</title>
+	</head>
+	<body>
+	<h1>It will take system time to display (Morning, Afternoon, Evening, Night)</h1><br>
+	<script>
+	
+let date=new Date();
+let time =date.getHours();
+
+
+if (time<=10){
+   document.write("Morning");
+}
+else if (time<=15){
+	document.write("Afternoon");
+}
+else if (time<=20){
+	document.write("Evening");
+}
+else if (time<=23){
+	document.write("Night");
+}
+	</script>
+	</body>
